@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/devops-webapp"
+        IMAGE_NAME = "mahender397/devops-webapp"
         TAG = "${BUILD_NUMBER}"
     }
 
@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/your-github/repo.git'
+                url: 'https://github.com/mahi3297/devops-cicd-project.git'
             }
         }
 
