@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/your-github/repo.git
+    repoURL: https://github.com/mahi3297/devops-cicd-project.gitt
     targetRevision: HEAD
     path: helm/webapp
     helm:
